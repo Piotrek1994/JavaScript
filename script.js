@@ -168,3 +168,54 @@
 //     console.log('%cnieparzysta','background:red;color:#333');
 // }
 // }
+//  const arr = [123, 'gold', 21, true, false, 'green', 'black']
+
+//  console.log(arr);
+
+//  arr.pop()
+//  console.log(arr)
+
+//  arr.push('push')
+//  console.log(arr)
+
+//  arr.shift()
+//  console.log(arr);
+
+//  arr.unshift('tak', 'okej', 'jasiu')
+//  console.log(arr);
+
+
+// const drinks = ['pepsi', 'kawa', 'sok']
+// const meals = ['schabowy', 'spaghetti', 'zupa']
+
+// const menu = [...drinks, ...meals]
+
+// console.log(menu);
+
+const numbers = [0, 0, 1, 1, 2, 2, 2]
+const colors = ['red', 'green', 'blue', true, 123]
+const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
+
+
+const numbers2 = numbers.slice(0, 2)
+console.log(numbers2);
+
+const numbers3 = numbers.slice(4, 7)
+console.log(numbers3);
+
+const colors2 = colors.splice(0, 3)
+console.log(colors2);
+
+const randomStuff = [...colors]
+console.log(randomStuff);
+
+
+const newCars = cars.splice(2, 4, "test")
+
+console.log(cars);
+console.log(newCars);
+
+
+
+
+
