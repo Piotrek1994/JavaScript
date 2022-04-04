@@ -79,20 +79,45 @@
 // 	console.log(`${x} < ${y}`)
 // }
 
+// const promo = '20%'
 
-const promo = '20%'
+// switch (promo) {
+//     case '10%':
+//         console.log('Dziś mamy 10% zniżki')
+//         break
+//     case '20%':
+//         console.log('Dziś mamy 20% zniżki')
+//         break
+//     case '30%':
+//         console.log('Dziś mamy 30% zniżki')
+//         break
 
-switch (promo) {
-    case '10%':
-        console.log('Dziś mamy 10% zniżki')
-        break
-    case '20%':
-        console.log('Dziś mamy 20% zniżki')
-        break
-    case '30%':
-        console.log('Dziś mamy 30% zniżki')
-        break
+//         default:
+//             console.log('Dzis jest niestandardowa promka');
+// }
 
-        default:
-            console.log('Dzis jest niestandardowa promka');
+// const x = 10
+// const y = 2
+// const z = x % y
+
+// if ( z === 0) {
+//     console.log('Liczba parzysta');
+// } else {
+//     console.log('Liczba nieparzysta');
+// }
+
+const x = 31
+let text
+
+
+
+if (x >= 100) {
+	text = 'x > 100'
+} else if (x < 100 && x > 30) {
+	text =  'x jest średniakiem'
+} else {
+	text = 'x jest mały'
 }
+
+
+console.log(text.toUpperCase());
