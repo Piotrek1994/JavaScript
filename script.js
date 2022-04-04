@@ -192,30 +192,84 @@
 
 // console.log(menu);
 
-const numbers = [0, 0, 1, 1, 2, 2, 2]
-const colors = ['red', 'green', 'blue', true, 123]
-const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
+// const numbers = [0, 0, 1, 1, 2, 2, 2]
+// const colors = ['red', 'green', 'blue', true, 123]
+// const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
 
 
-const numbers2 = numbers.slice(0, 2)
-console.log(numbers2);
+// const numbers2 = numbers.slice(0, 2)
+// console.log(numbers2);
 
-const numbers3 = numbers.slice(4, 7)
-console.log(numbers3);
+// const numbers3 = numbers.slice(4, 7)
+// console.log(numbers3);
 
-const colors2 = colors.splice(0, 3)
-console.log(colors2);
+// const colors2 = colors.splice(0, 3)
+// console.log(colors2);
 
-const randomStuff = [...colors]
-console.log(randomStuff);
-
-
-const newCars = cars.splice(2, 4, "test")
-
-console.log(cars);
-console.log(newCars);
+// const randomStuff = [...colors]
+// console.log(randomStuff);
 
 
+// const newCars = cars.splice(2, 4, "test")
+
+// console.log(cars);
+// console.log(newCars);
 
 
 
+
+// const letters = ['c', 'd']
+
+// letters.push('e', 'f')
+// letters.unshift('a', 'b')
+// console.log(letters);
+// console.log(letters.includes('c'));
+
+
+// const numbers = [1, 2, 4, 6, 8, 9, 23, 45, 600, 3433]
+// const meals = ['schab', 'rosol', 'mielone', 'zur', 'pomidorowa', 'pizza']
+// const newArr = [...numbers, ...meals]
+// console.log(newArr);
+
+
+// const numbers = [1, 5, 13, 26, 48]
+
+// function myFunction(x) {
+//     return x * 5
+// }
+
+// const newNumbers = numbers.map(myFunction)
+// console.log(newNumbers)
+
+
+// for (const numbers2 of newNumbers) {
+//     if(numbers2 % 2 === 0) {
+//         console.log(`Liczba parzysta ${numbers2}`);
+//     } else {
+//         console.log(`Liczba nieparzysta ${numbers2}`);
+//     }
+// }
+
+
+const color = ['green']
+
+color.push('red')
+color.unshift('blue')
+console.log(color);
+
+
+
+
+
+for (let i = 0; i < color.length; i++) {
+
+  
+
+    console.log('Moj ulubiony kolor to: ' + (color[i].toUpperCase().charAt(0) + color.slice(1, )));
+}
+
+
+
+
+
+//string[0].toUpperCase() + string.substring(1)
