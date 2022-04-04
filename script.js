@@ -106,18 +106,65 @@
 //     console.log('Liczba nieparzysta');
 // }
 
-const x = 31
-let text
+// const x = 31
+// let text
 
 
 
-if (x >= 100) {
-	text = 'x > 100'
-} else if (x < 100 && x > 30) {
-	text =  'x jest średniakiem'
-} else {
-	text = 'x jest mały'
-}
+// if (x >= 100) {
+// 	text = 'x > 100'
+// } else if (x < 100 && x > 30) {
+// 	text =  'x jest średniakiem'
+// } else {
+// 	text = 'x jest mały'
+// }
 
 
-console.log(text.toUpperCase());
+// console.log(text.toUpperCase());
+
+
+// const colors = ['blue', 'green', 'red', 'brown', 'yellow', 'black', 'white', 'pink']
+
+// for (let i = 0; i < colors.length; i++)
+// {
+//     console.log(colors[i]);
+// }
+
+
+// const cities = ['posen', 'warsaw', 'konin', 'gdańsk', 'gdynia', 'sopot']
+
+// for ( let i = 0; i < cities.length; i++) {
+//     console.log(`To miasto nazywa się: ` + cities[i]);
+// }
+
+
+
+// let x = 0
+
+// while (x < 10) {
+//     x = x + 2 
+//     console.log(x)
+// }
+
+
+
+// let x = 20
+
+// do {
+//     x = x - 3
+// } while ( x > 0)
+
+// console.log(x);
+
+
+
+// const numbers = [5, 8, 10, 23, 48 ,60]
+
+// for (const number of numbers) {
+//     console.log(number / 5)
+//  if (number % 2 == 0) {
+//     console.log('%cparzysta','background:yellow;color:#333');
+// } else {
+//     console.log('%cnieparzysta','background:red;color:#333');
+// }
+// }
