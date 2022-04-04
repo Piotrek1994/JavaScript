@@ -42,14 +42,57 @@
 // x /= y
 // x %= y
 
-const pass = '21ok2opk2opk212o'
+// const pass = '21ok2opk2opk212o'
 
-if (pass.length > 10 && pass.includes('!')) {
-	console.log('Masz rewelacyjne haslo')
-} else if (pass.length > 10) {
-	console.log('Masz super haslo')
-} else {
-	console.log('Masz do dupy haslo')
+// if (pass.length > 10 && pass.includes('!')) {
+// 	console.log('Masz rewelacyjne haslo')
+// } else if (pass.length > 10) {
+// 	console.log('Masz super haslo')
+// } else {
+// 	console.log('Masz do dupy haslo')
+// }
+
+// const x = 50
+// const y = 30
+
+// if (x > y) {
+//     console.log(`${x} > ${y}`);
+// }
+
+// const color = 'blue'
+// const newColor = 'green'
+
+// if (color == newColor) {
+//     console.log('Kolory się zgadzają');
+// } else {
+//     console.log('Kolory się nie zgadzają');
+// }
+
+// const x = 100
+// const y = 50
+
+// if (x > y) {
+// 	console.log(`${x} > ${y}`)
+// } else if (x == y) {
+// 	console.log(`${x} = ${y}`)
+// } else (x < y) {
+// 	console.log(`${x} < ${y}`)
+// }
+
+
+const promo = '20%'
+
+switch (promo) {
+    case '10%':
+        console.log('Dziś mamy 10% zniżki')
+        break
+    case '20%':
+        console.log('Dziś mamy 20% zniżki')
+        break
+    case '30%':
+        console.log('Dziś mamy 30% zniżki')
+        break
+
+        default:
+            console.log('Dzis jest niestandardowa promka');
 }
-
-
