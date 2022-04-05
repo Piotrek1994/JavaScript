@@ -109,8 +109,6 @@
 // const x = 31
 // let text
 
-
-
 // if (x >= 100) {
 // 	text = 'x > 100'
 // } else if (x < 100 && x > 30) {
@@ -119,9 +117,7 @@
 // 	text = 'x jest mały'
 // }
 
-
 // console.log(text.toUpperCase());
-
 
 // const colors = ['blue', 'green', 'red', 'brown', 'yellow', 'black', 'white', 'pink']
 
@@ -130,23 +126,18 @@
 //     console.log(colors[i]);
 // }
 
-
 // const cities = ['posen', 'warsaw', 'konin', 'gdańsk', 'gdynia', 'sopot']
 
 // for ( let i = 0; i < cities.length; i++) {
 //     console.log(`To miasto nazywa się: ` + cities[i]);
 // }
 
-
-
 // let x = 0
 
 // while (x < 10) {
-//     x = x + 2 
+//     x = x + 2
 //     console.log(x)
 // }
-
-
 
 // let x = 20
 
@@ -155,8 +146,6 @@
 // } while ( x > 0)
 
 // console.log(x);
-
-
 
 // const numbers = [5, 8, 10, 23, 48 ,60]
 
@@ -184,7 +173,6 @@
 //  arr.unshift('tak', 'okej', 'jasiu')
 //  console.log(arr);
 
-
 // const drinks = ['pepsi', 'kawa', 'sok']
 // const meals = ['schabowy', 'spaghetti', 'zupa']
 
@@ -195,7 +183,6 @@
 // const numbers = [0, 0, 1, 1, 2, 2, 2]
 // const colors = ['red', 'green', 'blue', true, 123]
 // const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
-
 
 // const numbers2 = numbers.slice(0, 2)
 // console.log(numbers2);
@@ -209,14 +196,10 @@
 // const randomStuff = [...colors]
 // console.log(randomStuff);
 
-
 // const newCars = cars.splice(2, 4, "test")
 
 // console.log(cars);
 // console.log(newCars);
-
-
-
 
 // const letters = ['c', 'd']
 
@@ -225,12 +208,10 @@
 // console.log(letters);
 // console.log(letters.includes('c'));
 
-
 // const numbers = [1, 2, 4, 6, 8, 9, 23, 45, 600, 3433]
 // const meals = ['schab', 'rosol', 'mielone', 'zur', 'pomidorowa', 'pizza']
 // const newArr = [...numbers, ...meals]
 // console.log(newArr);
-
 
 // const numbers = [1, 5, 13, 26, 48]
 
@@ -241,7 +222,6 @@
 // const newNumbers = numbers.map(myFunction)
 // console.log(newNumbers)
 
-
 // for (const numbers2 of newNumbers) {
 //     if(numbers2 % 2 === 0) {
 //         console.log(`Liczba parzysta ${numbers2}`);
@@ -250,26 +230,62 @@
 //     }
 // }
 
+// const color = ['green']
 
-const color = ['green']
+// color.unshift('blue')
+// color.push('red')
 
-color.push('red')
-color.unshift('blue')
-console.log(color);
+// for (let i = 0; i < color.length; i++) {
+
+//     console.log(`Moj ulubiony kolor to: ${color[i].charAt(0).toUpperCase() + color[i].slice(1)}`);
+// }
+
+// const cars = 'Audi, Mercedes, BMW, Nissan, Dodge'
+
+// const arr = cars.split(', ')
+// console.log(arr)
+
+// if (arr.lengt > 3) {
+// 	console.log(`Jest ok`)
+// } else {
+// 	console.log(`Nie jest ok`)
+// }
+
+
+// console.log(arr);
+
+// if (arr.includes('Audi')) {
+// 	arr.push('Laborghini')
+// } else {
+// 	arr.pop()
+// }
+
+
+// console.log(arr);
+
+// Funkcje
+
+
+// function setnence(arg1, arg2) {
+//     console.log(`Cześć, mam na imię ${arg1} i mam ${arg2} lat.`);
+// }
+
+// setnence('Piotr', 28);
+
+
+// const add = (arg1, arg2) => {
+   
+//    if (arg1 < arg2){
+//     return arg1 + arg2
+//    } else {
+//        return arg1 - arg2
+//    }
+// }
+
+// console.log(add(11, 10));
 
 
 
+// const arr = [1, 2, 3, 4, 5, 100]
 
-
-for (let i = 0; i < color.length; i++) {
-
-  
-
-    console.log('Moj ulubiony kolor to: ' + (color[i].toUpperCase().charAt(0) + color.slice(1, )));
-}
-
-
-
-
-
-//string[0].toUpperCase() + string.substring(1)
+// const arr2 = arr.forEach(arr2 => console.log(arr2))
