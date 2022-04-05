@@ -299,7 +299,6 @@
 // const bigNames = names.map(name => name.toUpperCase())
 // console.log(bigNames);
 
-
 // let score
 
 // const add = (arg1, arg2) => {
@@ -316,21 +315,51 @@
 
 // add(3, 4)//
 
-
 // VERSION @
 
+// const add = (arg1, arg2) => {
+// 	const score = arg1 + arg2
+// 	score % 2 === 0 ? even(score) : odd(score)
+// }
 
+// const even = (num) => {
+// 	console.log(`Funkcja #1: liczba ${num} jest parzysta`)
+// }
+// const odd = (num) => {
+// 	console.log(`Funkcja #2: liczba ${num} jest nieparzysta`)
+// }
 
-const add = (arg1, arg2) => {
-	const score = arg1 + arg2
-	score % 2 === 0 ? even(score) : odd(score)
+// add(3, 6)
+
+// let celsius
+// let temp
+
+// const fahrenheit = (arg) => {
+//     temp = arg * 1.8 + 32
+//     console.log(`${temp}`);
+
+// }
+
+// fahrenheit(123)
+
+let num = 10
+let numbers = []
+
+for (let i = 0; i < num; i++) {
+	numbers.push(i)
+}
+console.log(numbers)
+
+const divide = arg => {
+	if (arg % 3 === 0 && arg != 0) {
+		console.log(`Liczba ${arg} podzielna przez 3`)
+	} else {
+		console.log(`Liczba ${arg} nie podzielna przez 3 lub X = 0`)
+	}
 }
 
-const even = (num) => {
-	console.log(`Funkcja #1: liczba ${num} jest parzysta`)
-}
-const odd = (num) => {
-	console.log(`Funkcja #2: liczba ${num} jest nieparzysta`)
-}
+// numbers.forEach(arg => {
+//     divide(arg)
+// });
 
-add(3, 6)
+numbers.forEach(divide)
