@@ -342,24 +342,24 @@
 
 // fahrenheit(123)
 
-let num = 10
-let numbers = []
+// let num = 10
+// let numbers = []
 
-for (let i = 0; i < num; i++) {
-	numbers.push(i)
-}
-console.log(numbers)
+// for (let i = 0; i < num; i++) {
+// 	numbers.push(i)
+// }
+// console.log(numbers)
 
-const divide = arg => {
-	if (arg % 3 === 0 && arg != 0) {
-		console.log(`Liczba ${arg} podzielna przez 3`)
-	} else {
-		console.log(`Liczba ${arg} nie podzielna przez 3 lub X = 0`)
-	}
-}
+// const divide = arg => {
+// 	if (arg % 3 === 0 && arg != 0) {
+// 		console.log(`Liczba ${arg} podzielna przez 3`)
+// 	} else {
+// 		console.log(`Liczba ${arg} nie podzielna przez 3 lub X = 0`)
+// 	}
+// }
 
-// numbers.forEach(arg => {
-//     divide(arg)
-// });
+// // numbers.forEach(arg => {
+// //     divide(arg)
+// // });
 
-numbers.forEach(divide)
+// numbers.forEach(divide)
