@@ -251,7 +251,6 @@
 // 	console.log(`Nie jest ok`)
 // }
 
-
 // console.log(arr);
 
 // if (arr.includes('Audi')) {
@@ -260,11 +259,9 @@
 // 	arr.pop()
 // }
 
-
 // console.log(arr);
 
 // Funkcje
-
 
 // function setnence(arg1, arg2) {
 //     console.log(`Cześć, mam na imię ${arg1} i mam ${arg2} lat.`);
@@ -272,9 +269,8 @@
 
 // setnence('Piotr', 28);
 
-
 // const add = (arg1, arg2) => {
-   
+
 //    if (arg1 < arg2){
 //     return arg1 + arg2
 //    } else {
@@ -284,8 +280,57 @@
 
 // console.log(add(11, 10));
 
-
-
 // const arr = [1, 2, 3, 4, 5, 100]
 
 // const arr2 = arr.forEach(arr2 => console.log(arr2))
+
+// const name = 'Lily'
+
+// const test = () => {
+// }
+
+// console.log(name);
+
+// const numbers = [0.5, 4, 'abc']
+// const names = ['Lisa', 'Lily', 'Adam', 'Przemek']
+
+// numbers.forEach(num => console.log(num *2))
+
+// const bigNames = names.map(name => name.toUpperCase())
+// console.log(bigNames);
+
+
+// let score
+
+// const add = (arg1, arg2) => {
+// 	score = arg1 + arg2
+// 	score % 2 === 0 ? even() : odd()
+// }
+
+// const even = () => {
+// 	console.log(`Funkcja #1: liczba ${score} jest parzysta`)
+// }
+// const odd = () => {
+// 	console.log(`Funkcja #2: liczba ${score} jest nieparzysta`)
+// }
+
+// add(3, 4)//
+
+
+// VERSION @
+
+
+
+const add = (arg1, arg2) => {
+	const score = arg1 + arg2
+	score % 2 === 0 ? even(score) : odd(score)
+}
+
+const even = (num) => {
+	console.log(`Funkcja #1: liczba ${num} jest parzysta`)
+}
+const odd = (num) => {
+	console.log(`Funkcja #2: liczba ${num} jest nieparzysta`)
+}
+
+add(3, 6)
