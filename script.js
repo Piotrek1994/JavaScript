@@ -363,3 +363,11 @@
 // // });
 
 // numbers.forEach(divide)
+
+
+
+// const divAdd = document.createElement('div')
+// document.body.appendChild(divAdd)
+
+// const pAdd = document.createElement('p')
+// divAdd.appendChild(pAdd)
