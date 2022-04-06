@@ -294,3 +294,22 @@
 
 // gold.append(divNew)
 
+const ulList = document.createElement('ul')
+const body = document.querySelector('body')
+
+body.append(ulList)
+
+
+
+const liItems = document.createElement('li');
+
+
+for (let i = 0; i < 10; i++) {
+    const element = document.createElement('li');
+    ulList.appendChild(element)
+
+}
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+
