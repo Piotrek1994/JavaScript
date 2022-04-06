@@ -251,25 +251,27 @@
 // }
 
 
-const color = ['green']
+// const color = ['green']
 
-color.push('red')
-color.unshift('blue')
-console.log(color);
-
-
+// color.push('red')
+// color.unshift('blue')
+// console.log(color);
 
 
 
-for (let i = 0; i < color.length; i++) {
+
+
+// for (let i = 0; i < color.length; i++) {
 
   
 
-    console.log('Moj ulubiony kolor to: ' + (color[i].toUpperCase().charAt(0) + color.slice(1, )));
-}
+//     console.log('Moj ulubiony kolor to: ' + (color[i].toUpperCase().charAt(0) + color.slice(1, )));
+// }
 
 
 
 
 
 //string[0].toUpperCase() + string.substring(1)
+
+
