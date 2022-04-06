@@ -284,7 +284,13 @@
     <p id="test">następnie pobierz ten paragraf, ale nie przeszukuj całego `document`, przeszukaj tylko DIV-a z klasą test</p>
 </div> */}
 
-const heading = document.querySelector('h1')
-const paragraf = document.querySelectorAll('p')
-const div = document.querySelector('.test')
-const pDiv = document.querySelector('.test p')
+// const heading = document.querySelector('h1')
+// const paragraf = document.querySelectorAll('p')
+// const div = document.querySelector('.test')
+// const pDiv = document.querySelector('.test p')
+
+// const divNew = document.createElement('div')
+// const gold = document.querySelector('.gold')
+
+// gold.append(divNew)
+
