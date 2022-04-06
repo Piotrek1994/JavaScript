@@ -371,3 +371,23 @@
 
 // const pAdd = document.createElement('p')
 // divAdd.appendChild(pAdd)
+
+// const btn3 = document.querySelector('.btn-3')
+
+// const test = () => {
+//     console.log('double click');
+// }
+
+// btn3.addEventListener('dblclick', test)
+
+
+
+
+
+// allCircles.forEach(circle => circle.addEventListner('click', () => console.log(circle)))
+
+
+const gold = document.querySelector('.gold')
+const divNew = document.createElement('div')
+
+gold.append(divNew)
