@@ -294,46 +294,5 @@
 
 // gold.append(divNew)
 
-const ulList = document.createElement('ul')
-document.body.append(ulList)
-
-
-
-
-const number = 10
-
-for (let i = 1; i <= number; i++) {
-    const liItem = document.createElement('li')
-    liItem.textContent = i
-    ulList.append(liItem)
-}
-for (let i = 1; i <= number; i++) {
-    const liItem = document.createElement('li')
-    liItem.textContent = i
-    ulList.append(liItem)
-}
-for (let i = 1; i <= number; i++) {
-    const liItem = document.createElement('li')
-    liItem.textContent = i
-    ulList.append(liItem)
-}
-
-
-for (let i = 1; i <= number; i++) {
-    const liItem = document.createElement('li')
-    liItem.textContent = i
-    ulList.append(liItem)
-}
-for (let i = 1; i <= number; i++) {
-    const liItem = document.createElement('li')
-    liItem.textContent = i
-    ulList.append(liItem)
-}
-for (let i = 1; i <= number; i++) {
-    const liItem = document.createElement('li')
-    liItem.textContent = i
-    ulList.append(liItem)
-}
-
 
 
