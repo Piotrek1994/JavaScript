@@ -307,5 +307,15 @@ for (let i = 1; i <= number; i++) {
     liItem.textContent = i
     ulList.append(liItem)
 }
+for (let i = 1; i <= number; i++) {
+    const liItem = document.createElement('li')
+    liItem.textContent = i
+    ulList.append(liItem)
+}
+for (let i = 1; i <= number; i++) {
+    const liItem = document.createElement('li')
+    liItem.textContent = i
+    ulList.append(liItem)
+}
 
 
