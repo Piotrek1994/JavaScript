@@ -392,21 +392,63 @@
 
 // gold.append(divNew)
 
-const ulList = document.createElement('ul')
-document.body.append(ulList)
+// const ulList = document.createElement('ul')
+// document.body.append(ulList)
 
 
-for (let i = 1; i < 11; i++) {
-    const liItem = document.createElement('li')
-    liItem.textContent = i
-    ulList.append(liItem)
+// for (let i = 1; i < 11; i++) {
+//     const liItem = document.createElement('li')
+//     liItem.textContent = i
+//     ulList.append(liItem)
+// }
+
+// const lastItem = document.querySelector('li:last-child')
+// console.log(lastItem);
+
+// lastItem.textContent = "Jestem ostatnim elementem."
+
+// lastItem.style.background = 'blue';
+// lastItem.style.padding = '20px 40px';
+// lastItem.style.fontSize = '48px';
+
+
+
+const p = document.querySelectorAll('p')
+const divSquare= document.querySelector('.square')
+const p1 = document.querySelector('.p1')
+const p2 = document.querySelector('.p2')
+const btn1 = document.querySelector('.btn1')
+const btn2 = document.querySelector('.btn2')
+console.log(p);
+console.log(divSquare);
+console.log(p1);
+console.log(btn1);
+console.log(btn2);
+
+//1
+const hello = () => {
+    console.log("cześć");
 }
 
-const lastItem = document.querySelector('li:last-child')
-console.log(lastItem);
+//2
+const goldToRed = () => {
+    divSquare.style.background = "red"
+}
 
-lastItem.textContent = "Jestem ostatnim elementem."
+//3
+const redToBlue = () => {
+    divSquare.style.background = "blue"
+}
 
-lastItem.style.background = 'blue';
-lastItem.style.padding = '20px 40px';
-lastItem.style.fontSize = '48px';
+
+const toggleClass = () => {
+    p1.classList.toggle('show')
+    p2.classList.toggle('show')
+
+}
+
+
+btn1.addEventListener('dblclick', hello)
+divSquare.addEventListener('mouseover', goldToRed)
+divSquare.addEventListener('mouseout', redToBlue)
+btn2.addEventListener('click', toggleClass)
