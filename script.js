@@ -364,8 +364,6 @@
 
 // numbers.forEach(divide)
 
-
-
 // const divAdd = document.createElement('div')
 // document.body.appendChild(divAdd)
 
@@ -380,12 +378,7 @@
 
 // btn3.addEventListener('dblclick', test)
 
-
-
-
-
 // allCircles.forEach(circle => circle.addEventListner('click', () => console.log(circle)))
-
 
 // const gold = document.querySelector('.gold')
 // const divNew = document.createElement('div')
@@ -394,7 +387,6 @@
 
 // const ulList = document.createElement('ul')
 // document.body.append(ulList)
-
 
 // for (let i = 1; i < 11; i++) {
 //     const liItem = document.createElement('li')
@@ -410,8 +402,6 @@
 // lastItem.style.background = 'blue';
 // lastItem.style.padding = '20px 40px';
 // lastItem.style.fontSize = '48px';
-
-
 
 // const p = document.querySelectorAll('p')
 // const divSquare= document.querySelector('.square')
@@ -440,31 +430,48 @@
 //     divSquare.style.background = "blue"
 // }
 
-
 // const toggleClass = () => {
 //     p1.classList.toggle('show')
 //     p2.classList.toggle('show')
 
 // }
 
-
 // btn1.addEventListener('dblclick', hello)
 // divSquare.addEventListener('mouseover', goldToRed)
 // divSquare.addEventListener('mouseout', redToBlue)
 // btn2.addEventListener('click', toggleClass)
 
+// const imgNew = document.createElement('img')
+// document.body.append(imgNew)
+
+// imgNew.setAttribute('src', 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg')
+// imgNew.setAttribute('alt', 'mona lisa')
+
+// const name = () => {
+//     console.log('Cokolwiek');
+// }
+
+// setTimeout(name, 2000);
+
+const liItems = document.querySelectorAll('li')
+let number = 1
+
+// for (const liItem of liItems) {
+//     liItem.dataset.id = number
+//     liItem.textContent = number
+//     number++
+// }
 
 
-const imgNew = document.createElement('img')
-document.body.append(imgNew)
-
-imgNew.setAttribute('src', 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg')
-imgNew.setAttribute('alt', 'mona lisa')
-
-
-const name = () => {
-    console.log('Cokolwiek');
+for (let i = 0; i < liItems.length; i++) {
+    liItems[i].textContent = number
+    liItems[i].dataset.id = number
+    number++    
 }
 
-setTimeout(name, 2000);
+const thirdLi = document.querySelector('[data-id="3"')
+console.log(thirdLi.closest('.wrapper'));
+
+
+
 
