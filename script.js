@@ -413,42 +413,58 @@
 
 
 
-const p = document.querySelectorAll('p')
-const divSquare= document.querySelector('.square')
-const p1 = document.querySelector('.p1')
-const p2 = document.querySelector('.p2')
-const btn1 = document.querySelector('.btn1')
-const btn2 = document.querySelector('.btn2')
-console.log(p);
-console.log(divSquare);
-console.log(p1);
-console.log(btn1);
-console.log(btn2);
+// const p = document.querySelectorAll('p')
+// const divSquare= document.querySelector('.square')
+// const p1 = document.querySelector('.p1')
+// const p2 = document.querySelector('.p2')
+// const btn1 = document.querySelector('.btn1')
+// const btn2 = document.querySelector('.btn2')
+// console.log(p);
+// console.log(divSquare);
+// console.log(p1);
+// console.log(btn1);
+// console.log(btn2);
 
-//1
-const hello = () => {
-    console.log("cześć");
-}
+// //1
+// const hello = () => {
+//     console.log("cześć");
+// }
 
-//2
-const goldToRed = () => {
-    divSquare.style.background = "red"
-}
+// //2
+// const goldToRed = () => {
+//     divSquare.style.background = "red"
+// }
 
 //3
-const redToBlue = () => {
-    divSquare.style.background = "blue"
+// const redToBlue = () => {
+//     divSquare.style.background = "blue"
+// }
+
+
+// const toggleClass = () => {
+//     p1.classList.toggle('show')
+//     p2.classList.toggle('show')
+
+// }
+
+
+// btn1.addEventListener('dblclick', hello)
+// divSquare.addEventListener('mouseover', goldToRed)
+// divSquare.addEventListener('mouseout', redToBlue)
+// btn2.addEventListener('click', toggleClass)
+
+
+
+const imgNew = document.createElement('img')
+document.body.append(imgNew)
+
+imgNew.setAttribute('src', 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg')
+imgNew.setAttribute('alt', 'mona lisa')
+
+
+const name = () => {
+    console.log('Cokolwiek');
 }
 
+setTimeout(name, 2000);
 
-const toggleClass = () => {
-    p1.classList.toggle('show')
-    p2.classList.toggle('show')
-
-}
-
-
-btn1.addEventListener('dblclick', hello)
-divSquare.addEventListener('mouseover', goldToRed)
-divSquare.addEventListener('mouseout', redToBlue)
-btn2.addEventListener('click', toggleClass)
