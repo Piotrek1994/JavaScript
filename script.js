@@ -387,7 +387,26 @@
 // allCircles.forEach(circle => circle.addEventListner('click', () => console.log(circle)))
 
 
-const gold = document.querySelector('.gold')
-const divNew = document.createElement('div')
+// const gold = document.querySelector('.gold')
+// const divNew = document.createElement('div')
 
-gold.append(divNew)
+// gold.append(divNew)
+
+const ulList = document.createElement('ul')
+document.body.append(ulList)
+
+
+for (let i = 1; i < 11; i++) {
+    const liItem = document.createElement('li')
+    liItem.textContent = i
+    ulList.append(liItem)
+}
+
+const lastItem = document.querySelector('li:last-child')
+console.log(lastItem);
+
+lastItem.textContent = "Jestem ostatnim elementem."
+
+lastItem.style.background = 'blue';
+lastItem.style.padding = '20px 40px';
+lastItem.style.fontSize = '48px';
