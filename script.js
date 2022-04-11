@@ -453,25 +453,35 @@
 
 // setTimeout(name, 2000);
 
-const liItems = document.querySelectorAll('li')
-let number = 1
+// const liItems = document.querySelectorAll('li')
+// let number = 1
 
-// for (const liItem of liItems) {
-//     liItem.dataset.id = number
-//     liItem.textContent = number
+// // for (const liItem of liItems) {
+// //     liItem.dataset.id = number
+// //     liItem.textContent = number
+// //     number++
+// // }
+
+// for (let i = 0; i < liItems.length; i++) {
+//     liItems[i].textContent = number
+//     liItems[i].dataset.id = number
 //     number++
 // }
 
+// const thirdLi = document.querySelector('[data-id="3"')
+// console.log(thirdLi.closest('.wrapper'));
 
-for (let i = 0; i < liItems.length; i++) {
-    liItems[i].textContent = number
-    liItems[i].dataset.id = number
-    number++    
+function Menu(meal, price) {
+	this.meal = meal
+	this.price = price
 }
 
-const thirdLi = document.querySelector('[data-id="3"')
-console.log(thirdLi.closest('.wrapper'));
+const meal1 = new Menu('Pizza', 23)
+const meal2 = new Menu('Pasta', 85)
+const meal3 = new Menu('Ananas', 34)
 
+Menu.prototype.final = function() {
+    console.log(`${this.meal} kosztuje ${this.price}`);
+}
 
-
-
+meal3.final()
