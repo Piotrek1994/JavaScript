@@ -471,17 +471,43 @@
 // const thirdLi = document.querySelector('[data-id="3"')
 // console.log(thirdLi.closest('.wrapper'));
 
-function Menu(meal, price) {
-	this.meal = meal
-	this.price = price
+// function Menu(meal, price) {
+// 	this.meal = meal
+// 	this.price = price
+// }
+
+// const meal1 = new Menu('Pizza', 23)
+// const meal2 = new Menu('Pasta', 85)
+// const meal3 = new Menu('Ananas', 34)
+
+// Menu.prototype.final = function() {
+//     console.log(`${this.meal} kosztuje ${this.price}`);
+// }
+
+// meal3.final()
+
+function Person(name, age) {
+	this.name = name
+	this.age = age
 }
 
-const meal1 = new Menu('Pizza', 23)
-const meal2 = new Menu('Pasta', 85)
-const meal3 = new Menu('Ananas', 34)
-
-Menu.prototype.final = function() {
-    console.log(`${this.meal} kosztuje ${this.price}`);
+Person.prototype.sayHi = function () {
+	console.log(`Cześć jestem ${this.name}`)
 }
 
-meal3.final()
+const person1 = new Person('Ania', 23)
+
+person1.sayHi()
+
+class Person2 {
+	constructor(name, age) {
+		this.name = name
+		this.age = age
+	}
+	sayHi() {
+		console.log(`Cześć jestem ${this.name}`)
+	}
+}
+
+const person2 = new Person2('Robert', 254)
+person2.sayHi()
