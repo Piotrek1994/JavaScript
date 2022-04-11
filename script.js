@@ -542,4 +542,40 @@ btn.addEventListener('click',  () => {
 	.catch(err => console.log(err))
 })
 
+btn.addEventListener('click',  () => {
+	fetch(URL)
+	.then(res => res.json())
+	.then(data => img.setAttribute('src', data.message))
+	.catch(err => console.log(err))
+})
+
+btn.addEventListener('click',  () => {
+	fetch(URL)
+	.then(res => res.json())
+	.then(data => img.setAttribute('src', data.message))
+	.catch(err => console.log(err))
+})
+
+btn.addEventListener('click',  () => {
+	fetch(URL)
+	.then(res => res.json())
+	.then(data => img.setAttribute('src', data.message))
+	.catch(err => console.log(err))
+})
+
+btn.addEventListener('click',  () => {
+	fetch(URL)
+	.then(res => res.json())
+	.then(data => img.setAttribute('src', data.message))
+	.catch(err => console.log(err))
+})
+
+btn.addEventListener('click',  () => {
+	fetch(URL)
+	.then(res => res.json())
+	.then(data => img.setAttribute('src', data.message))
+	.catch(err => console.log(err))
+})
+
+
 
