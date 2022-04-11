@@ -486,28 +486,42 @@
 
 // meal3.final()
 
-function Person(name, age) {
-	this.name = name
-	this.age = age
-}
+// function Person(name, age) {
+// 	this.name = name
+// 	this.age = age
+// }
 
-Person.prototype.sayHi = function () {
-	console.log(`Cześć jestem ${this.name}`)
-}
+// Person.prototype.sayHi = function () {
+// 	console.log(`Cześć jestem ${this.name}`)
+// }
 
-const person1 = new Person('Ania', 23)
+// const person1 = new Person('Ania', 23)
 
-person1.sayHi()
+// person1.sayHi()
 
-class Person2 {
-	constructor(name, age) {
-		this.name = name
-		this.age = age
-	}
-	sayHi() {
-		console.log(`Cześć jestem ${this.name}`)
-	}
-}
+// class Person2 {
+// 	constructor(name, age) {
+// 		this.name = name
+// 		this.age = age
+// 	}
+// 	sayHi() {
+// 		console.log(`Cześć jestem ${this.name}`)
+// 	}
+// }
 
-const person2 = new Person2('Robert', 254)
-person2.sayHi()
+// const person2 = new Person2('Robert', 254)
+// person2.sayHi()
+
+
+const btn = document.querySelector('button')
+const img = document.querySelector('img')
+const URL = 'https://dog.ceo/api/breeds/image/random'
+
+
+
+btn.addEventListener('click',  () => {
+	fetch(URL)
+	.then(res => res.json())
+	.then(data => img.setAttribute('src', data.message))
+	.catch(err => console.log(err))
+})
